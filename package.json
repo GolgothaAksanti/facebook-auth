@@ -1,0 +1,44 @@
+{
+  "name": "facebook-auth",
+  "version": "1.0.0",
+  "description": "node express, passport, mysql, sequelize, babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/index.js",
+    "build": "babel src -d --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GolgothaAksanti/facebook-auth.git"
+  },
+  "author": "Golgotha Aksanti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GolgothaAksanti/facebook-auth/issues"
+  },
+  "homepage": "https://github.com/GolgothaAksanti/facebook-auth#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
+  }
+}
